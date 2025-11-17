@@ -4,7 +4,6 @@ import { Purchase } from '../model/purchase-model.js';
 // Get Dashboard Data (Current User Purchases Only)
 export const getDashboardData = async (req, res) => {
     try {
-        // Get current user
         const user = await User.findById(req.user.id).select('username walletBalance');
 
         if (!user) {
