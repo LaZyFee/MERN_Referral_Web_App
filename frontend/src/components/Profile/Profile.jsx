@@ -51,7 +51,7 @@ export const Profile = () => {
   const { user, referrals = [] } = data;
 
   return (
-    <div className="min-h-screen bg-gray-50 p-4 md:p-8 lg:pt-24">
+    <div className="min-h-screen bg-gray-50 p-4 md:p-8 lg:pt-24 pt-16">
       <div className="max-w-6xl mx-auto space-y-6">
         {/* Profile Card */}
         <div className="bg-white rounded-lg shadow p-6">

@@ -28,7 +28,7 @@ const SuccessPage = () => {
   const { items, total } = orderDetails;
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-emerald-50 via-white to-teal-50 flex items-center justify-center p-4 lg:pt-24">
+    <div className="min-h-screen bg-linear-to-br from-emerald-50 via-white to-teal-50 flex items-center justify-center p-4 pt-24">
       <div className="max-w-3xl w-full">
         {/* Success Animation Container */}
         <div className="text-center mb-8 animate-fade-in">
