@@ -3,6 +3,7 @@ import { User, Copy, Check, Wallet, Users, ShoppingBag } from "lucide-react";
 import axiosInstance from "../../utils/axios";
 import { formatDate } from "../../utils/ForamteDate";
 import { Loader } from "../shared/Loader";
+import { ShowError } from "../shared/ShowError";
 
 export const Profile = () => {
   const [data, setData] = useState(null);
