@@ -1,39 +1,21 @@
-Build a small web app where users can register, get a referral code, refer others, buy products, and earn referral bonuses.
-The rules:
-User Registration & Referral Code
+# Referral-Based E-Commerce Web App
 
-Every user gets a unique referral code.
+A lightweight **single-page web app** that allows:
 
-During signup, a user may enter someone’s referral code.
+- User registration with optional referral code
+- Auto-generated unique referral code per user
+- Product catalog & purchase system
+- Referral bonus: **10% on first purchase**, **3% on subsequent**
+- Wallet system to track earnings
+- Referral dashboard (who you referred + their purchases)
 
-Track who referred whom.
+## Live Demo Users (For Testing)
 
-Product Purchase
+| Username  | Password | Referral Code |
+| --------- | -------- | ------------- |
+| `admin`   | 123456   | `JKHa5ipe4`   |
+| `newuser` | 123456   | `fL_KdZ_-W`   |
+| `john`    | 123456   | `-cTgnUI-9`   |
+| `rabiul`  | 123456   | `odQ11lms1`   |
 
-Show a few simple products.
-
-Users can buy any product.
-
-Referral Bonus System
-
-If a referred user makes their first purchase,
-the referrer earns a higher bonus percent (example: 10%).
-
-For all additional purchases by the same referred user,
-the referrer earns a lower percent (example: 3%).
-
-Use any percentage values you want — but the logic must be implemented.
-
-Wallet Balance
-
-Referrer’s bonus is added to a wallet/balance.
-
-User can view their total wallet balance.
-
-User can see a list of people they referred and their purchase history.
-
-Simple UI
-
-No need for fancy design.
-
-Functionality is more important than appearance.
+> Use these to test referral chains.
